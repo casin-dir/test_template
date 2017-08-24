@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+
+import os
+
+if __name__ == '__main__':
+	print('this script running on build')
+	#temp = os.environ["TEMP"]
+	# CREATOR_SCRIPT_STAGE
+	# CREATOR_SCRIPT_ITEM
