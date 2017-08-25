@@ -4,6 +4,7 @@ import os
 
 if __name__ == '__main__':
 	print('this script running on build')
-	#temp = os.environ["TEMP"]
-	# CREATOR_SCRIPT_STAGE
-	# CREATOR_SCRIPT_ITEM
+	stage = os.environ.get('CREATOR_SCRIPT_STAGE')
+	print(stage)
+	item = os.environ.get('CREATOR_SCRIPT_ITEM')
+	print(item)
